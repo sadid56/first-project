@@ -1,0 +1,671 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 60px;
+    z-index: 1;
+    background-color: #fff;
+    position: fixed;
+   
+    
+}
+header:hover{
+    box-shadow: 1px 10px 20px rgb(196, 195, 195);
+}
+
+
+header div{
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+margin-left:100px ;
+padding: 15px;
+
+}
+header .nav{
+    position: absolute;
+    top: 0;
+    right:0;
+    margin-right: 160px;
+}
+header .nav ul{
+    list-style: none;
+
+}
+header .nav ul li{
+    float: left;
+    padding: 20px;
+   
+}
+header .nav ul li a{
+    text-decoration: none;
+    color: rgb(19, 18, 18);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+header .nav ul li a:hover{
+    color:rgb(9, 13, 235);
+}
+.checkBtn{
+   float: right;
+    font-size: 30px;
+    line-height: 80px;
+    margin-right: -160px;
+    display: none;
+}
+#check{
+    display: none;
+}
+span{
+    color:blue;
+}
+/* section one start */
+
+.one{
+    width: 100%;
+    height: 760px;
+    background-color: #f9f9ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+
+}
+.half1, .half2{
+    width: 50%;
+    margin-top: 150px;
+}
+.half1{
+    margin-left: 130px;
+    margin-bottom: 120px;
+}
+.half2{
+  
+ 
+
+}
+.half2 img{
+    max-width: 100%;
+    height: auto;
+}
+.half1 h3{
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 3px;
+}
+.half1 h1{
+    text-transform: uppercase;
+    font-size: 4rem;
+    margin: 15px 0;
+}
+.half1 p{
+    color: rgb(122, 122, 122);
+}
+.half1 input{
+    padding: 13px 25px;
+    text-transform: uppercase;
+    background-color: #8393ff;
+    margin: 20px 0;
+    outline: none;
+    color: #fff;
+    border: 1px solid #8393ff;
+}
+.half1 input:hover{
+    box-shadow: 1px 10px 10px gray;
+    transition: all ease 0.5s;
+    outline: none;
+}
+        /* section one end */
+
+        /* /* section two start */
+
+        .two{
+            width: 100%;
+            height: 680px;
+             display: flex;
+            justify-content: space-between;
+            align-items: center;}
+
+.sectionTwoImg, .sectionTwoText{
+    width: 50%;
+}
+.sectionTwoText{
+    margin-left: 100px;
+}
+.sectionTwoImg img{
+    max-width: 100%;
+    height: auto;
+}
+.sectionTwoImg{
+    margin-left: 50px;
+}
+.sectionTwoText h3{
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.sectionTwoText h1{
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin: 25px 0;
+}
+.sectionTwoText p{
+    color: rgb(94, 94, 94);
+    font-family: sans-serif;
+}
+.sectionTwoText input{
+    background-color: #8393ff;
+    color: #fff;
+    padding: 13px 25px;
+    text-transform: uppercase;
+    outline: none;
+    margin: 20px 0;
+    border: 1px solid #8393ff;
+}
+.sectionTwoText input:hover{
+    box-shadow: 1px 10px 10px gray;
+    transition: all ease 0.5s;
+}
+ /* section two end */
+  /* section three start */
+.text{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.text h1{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.text p{
+    color: rgb(75, 75, 75);
+    font-family: sans-serif;
+}
+ 
+.three{
+    width: 100%;
+    height: 680px;
+    margin: 0 auto;
+    text-align: center;
+}
+.service{
+    width: 80%;
+    margin: 0 auto;
+}
+.ser1, .ser2{
+    width: 100%;
+    overflow: hidden;
+    padding: 50px 10px;
+}
+.ser1 div, .ser2 div{
+    width: 32%;
+    float: left;
+    padding: 5px;
+    margin: 0 auto;
+}
+.service i{
+    font-size: 30px;
+    color:black;
+}.service p{
+    color:rgb(110, 110, 110)
+}
+.service h1{
+    margin: 20px 0;
+}
+.ser1 div:hover i{
+    color:rgb(79, 12, 235);
+    transition: all ease 0.7s;
+}
+.ser1 div:hover h1{
+    color:#310bdb;
+    transition: all ease 0.7s;
+}
+.ser2 div:hover i{
+    color:rgb(79, 12, 235);
+    transition: all ease 0.7s;
+}
+.ser2 div:hover h1{
+    color:#310bdb;
+    transition: all ease 0.7s;
+}
+        /* section three end/* 
+        section four starte end */
+
+.four{
+    width: 100%;
+    height: 300px;
+    background-color: #644ec7;
+}
+.four{
+   text-align: center;
+   justify-content: space-between;
+   display: flex;
+    
+}
+.text1{
+    margin-top: 10%;
+    margin-left: 15%;
+    color:#fff;
+}
+.text1 h1{
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+.text2{
+    margin-top: 10%;
+    color: #fff;
+}
+.text2 h1{
+    font-size: 30px;
+margin-bottom: 8px;
+}
+
+.text3{
+    margin-top: 10%;
+    color: #fff;
+}
+.text3 h1{
+        font-size: 30px;
+    margin-bottom: 8px;
+    }
+.text4{
+    margin-top: 10%;
+    margin-right: 15%;
+    color: #fff;
+}
+.text4 h1{
+    font-size: 30px;
+margin-bottom: 8px;
+}
+/* section four end */
+/* section five start */
+.fiv{
+    width: 100%;
+    box-sizing: border-box;
+}
+.fiveText{
+    text-align: center;
+    margin:100px 0 ;
+}
+.fiveText h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.fiveText p{
+    color: rgb(153, 153, 153);
+}
+.fiveImg{
+    width: 90%;
+    height: 850px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.fiveImg div{
+    width: 340px;
+    height: 339px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.fiveImg div h1 {
+    margin-top: 20px ;
+    color: rgba(0,0,0,0.9);
+    font-size: 20px;
+}
+.fiveImg div p{
+    color:rgb(151, 151, 151);
+}
+.fiveImg div figure:hover{
+    background: rgba(85, 72, 158, 0.9);
+     width: 340px;
+    height: 339px; 
+    border-radius: 3%;
+    transition: all ease 0.5s;
+    background-image: url(img/preview.png.webp);
+    background-repeat: no-repeat;
+    
+}
+.fiveImg figure:hover img{
+    opacity: 0.3;
+}
+        /* section five end */
+        /* section six start */
+.six{
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+}
+.sixText{
+    margin-top: 100px;
+    text-align: center;
+}
+.sixText h1{
+    font-size: 40px;
+    color: rgba(0,0,0,0.9);
+    margin-bottom: 10px;
+}
+.sixText p{
+    color:rgb(141, 141, 141);
+    font-size: 15px;
+}
+.card{
+    width: 90%;
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:0 auto;
+    margin-top: 50px;
+    background-color: #f7f5f5;
+}
+.card1{
+    height: 520px;
+    width: 25%;
+    text-align: center;
+    padding: 0 5px;
+}
+.card1 h1{
+    margin: 50px 0;
+    font-size: 2rem;
+}
+.card1 h4{
+    color:rgb(163, 163, 163);
+    /* font-weight: 10px; */
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.card1 p{
+    color: rgb(185, 185, 185);
+    font-size:15px ;
+   margin: 10px 0;
+}
+.card1 h2{
+    font-size: 2rem;
+    margin: 40px 0;
+}
+/* .card1> hr{
+    color: rgb(177, 175, 175);
+    opacity: 1px;
+} */
+.card1 input{
+    background-color: #8393ff;
+    outline: none;
+    color: #fff;
+    border: 1px solid #8393ff;
+    cursor: pointer;
+    padding: 7px 60px;
+}
+.card1:hover{
+    background-color: #8393ff;
+    color: #fff;
+    transition: all 0.25s ease-in;
+    transform: scale(1.05);
+    
+    
+}
+.card1:hover  p{
+    color:#fff;
+}
+.card1:hover h4{
+    color:#fff;
+}
+.card1:hover input{
+    background-color: #fff;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+/* section six end */
+
+    /* footer part start */
+footer{
+    width: 100%;
+    height: 400px;
+  position: absolute;
+  margin-top: 600px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+
+}
+.footer1{
+    width: 30%;
+    height: auto;
+    margin: 10% 0;
+    margin-left: 5%;
+    
+}
+.footer1 h2{
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+.footer1 p{
+    color: rgb(165, 165, 165);
+    font-size: 15px;
+
+}
+.footer1 a{
+    text-decoration: none;
+}
+.footer2 {
+    width: 35%;
+    height:auto ;
+    margin: 10% 0;
+}
+.footer2 h2{
+    color:#fff;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+.footer2 p{
+    color:rgb(163, 163, 163);
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.footer2 input{
+    padding: 10px 90px;
+
+}
+.footer2 button{
+padding: 10px 15px;
+background-color: #5078c2;
+outline: none;
+border: 1px solid #384fb6;
+color:#fff;
+cursor: pointer;
+
+}
+.footer3{
+    width: 20%;
+    height: auto;
+    margin: 10% 0;
+}
+.footer3 h2{
+    font-size: 18px;
+    color:#fff;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+.footer3 p{
+    color:rgb(160, 160, 160);
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.footer3 i{
+    color: #fff;
+    padding-right: 10px;
+}
+.footer3 i:hover{
+    color: #384fb6;
+}
+
+
+/* End */
+
+@media(max-width:768px){
+    header{
+        width: 100%;
+        height: auto;
+       top: 0px;
+    }
+    header .logo{
+        margin-left: 30px;
+        padding: 20px;
+}
+    .checkBtn{
+        display: block;
+    }
+    header .nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #f9f9ff;
+        /* top: 54px; */
+        left:-200%;
+        transition: all 0.2s;
+    }
+    .nav ul li{
+        line-height: 30px;
+        clear: both;
+        margin-top: 10px;
+    }
+    #check:checked ~ ul{
+        left: 0px;
+    }
+    header .nav ul li a{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+@media(max-width:768px){
+    .one {
+        width: 100%;
+        height: auto;
+        display: block;
+        top: 0px;
+        
+    }
+    .half1 h1{
+        font-size: 25px;
+    }
+    .half2 img{
+        margin-left: 90px;
+        /* margin-top: 30px; */
+        width: 100%;
+        height: auto;
+    }
+    .two{
+        width: 100%;
+        height: auto;
+        display: block;
+        top: 0;
+    }
+    .sectionTwoImg{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .sectionTwoText{
+        text-align: center;
+        margin-bottom: 30px;
+        position: relative;
+    }
+    .sectionTwoText h1{
+        font-size: 20px;
+    }
+    .three{
+        height: auto;
+        width: 100%;
+        display: block;
+    }
+    .ser1 div , .ser2 div{
+        clear: left;
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    .four{
+        width: 100%;
+        height: 200px;
+        clear: left;
+        
+    }
+    .five{
+        width: 100%;
+        height: auto;
+        position: relative;
+       
+    }
+    .fiveText h1{
+        font-size: 30px;
+    }
+   .fiveImg div{
+    margin-bottom: 100px;
+   }
+   .six{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 110em;
+   }
+   .card{
+    display: block;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    left: 90px;
+   }
+   .card1{
+    width: 60%;
+   }
+   footer{
+    width: 100%;
+    height: 40em;
+    position: relative;
+    top: 190em;
+    display: block;
+   }
+   /* .footer1{
+    display: block;
+    position: relative;
+    top: 100px;
+   } */
+footer .footer1{
+    top: 40px;
+    left: 20%;
+    width: 50%;
+    height: auto;
+    position: relative;
+}
+footer .footer2{
+    top: 40px;
+    left: 20%;
+    width: 30%;
+    height: auto;
+    position: relative;
+}
+footer .footer3{
+    top: 40px;
+    left: 20%;
+    width: 50%;
+    height: auto;
+    position: relative;
+}
+footer .footer2 input{
+    padding: 10px 30px;
+}
+
+    
+}
